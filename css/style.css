@@ -1,4 +1,8 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,100);
+
+
+
+/*/*/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
  * 1. Set default font family to sans-serif.
@@ -18,6 +22,7 @@ html {
 
 body {
   margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* HTML5 display definitions
@@ -237,10 +242,10 @@ samp {
 /* Forms
    ========================================================================== */
 
-/**
+*
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
  * styling of `select`, unless a `border` property is set.
- */
+ 
 
 /**
  * 1. Correct color not being inherited.
@@ -424,4 +429,79 @@ table {
 td,
 th {
   padding: 0;
+}
+*/*/
+
+/* MEU CSS
+   ========================================================================== */
+
+
+body {
+    background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*div {
+    border: 1px solid Chocolate;
+}
+
+/* NAVBAR
+   ========================================================================== */
+
+
+nav {
+  margin: 0 auto;
+  max-width: 100%;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  height: 40px;
+}
+
+nav .menu-container{
+  margin: 0 auto;
+  max-width: 790px;
+}
+
+nav .logo-container{
+  width:10%;
+  float: left;
+}
+
+nav .logo{
+  width:25px;
+  height:38px;
+  display: block;
+}
+
+nav .menu{
+  width:80%;
+  text-align: right;
+  float: right;
+  margin: 0px;
+  padding: 10px 0px ;
+}
+
+nav .menu ul{
+}
+
+nav .menu li{
+  display: inline-block;
+  margin: 0px;
+  padding:0px 30px 0px 0px;
+}
+
+nav .menu li:last-child{
+  padding:0px;
+}
+
+nav .menu li a,
+nav .menu li a:visited{
+  font-size: 1.0em;
+  text-decoration: none;
+  color: #838994;
+}
+
+nav .menu li a:hover{
+  color: #333;
 }
