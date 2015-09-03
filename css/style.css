@@ -455,12 +455,12 @@ body {
 
 
 nav {
-  margin: 0 auto;
-  max-width: 100%;
+  width: 100%;
   background-color: #fff;
   padding-top: 20px;
   padding-bottom: 15px;
   height: 75px;
+  border-bottom:1px solid #DDD;
 }
 
 .content{
@@ -521,7 +521,7 @@ section.hero-shot{
   width: 100%;
   background: #ccc url('../img/background.jpg') no-repeat top;
   background-position-y:-70px;
-  
+
 
 }
 
