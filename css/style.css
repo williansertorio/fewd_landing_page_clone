@@ -1,6 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,100);
 
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /*/*/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
@@ -475,7 +480,7 @@ nav .logo{
 }
 
 nav .menu{
-  width:80%;
+  width:90%;
   text-align: right;
   float: right;
   margin: 0px;
@@ -500,8 +505,16 @@ nav .menu li a:visited{
   font-size: 1.0em;
   text-decoration: none;
   color: #838994;
+  letter-spacing: 0.03em;
 }
 
 nav .menu li a:hover{
   color: #333;
 }
+
+nav .menu li a.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+
