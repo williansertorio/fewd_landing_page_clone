@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,100);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700,100);
 
 html {
   box-sizing: border-box;
@@ -460,10 +460,10 @@ nav {
   background-color: #fff;
   padding-top: 20px;
   padding-bottom: 15px;
-  height: 40px;
+  height: 75px;
 }
 
-nav .menu-container{
+.content{
   margin: 0 auto;
   max-width: 790px;
 }
@@ -505,7 +505,7 @@ nav .menu li a:visited{
   font-size: 1.0em;
   text-decoration: none;
   color: #838994;
-  letter-spacing: 0.03em;
+
 }
 
 nav .menu li a:hover{
@@ -514,7 +514,57 @@ nav .menu li a:hover{
 
 nav .menu li a.active {
     color: #4c5058;
-    font-weight: 500;
+    font-weight: 400;
 }
+
+section.hero-shot{
+  width: 100%;
+  background: #ccc url('../img/background.jpg') no-repeat top;
+  background-position-y:-70px;
+  
+
+}
+
+section.hero-shot > .content{
+  text-align: center;
+  color:#fff;
+}
+
+section.hero-shot > .content h1{
+  margin: 0px;
+  padding-top:12.8rem;
+  font-size: 3.125rem;
+  font-weight:300;
+}
+
+section.hero-shot > .content h2{
+  margin: 0px;
+  padding-top:0.8rem;
+  padding-bottom:1.55rem;
+  font-size: 1.56rem;
+  font-weight:300;
+}
+
+section.hero-shot button.cta{
+    width: 9.688rem;
+    background-color: #f15a29;
+    border:0px;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    margin-bottom:14.8rem;
+}
+
+section.hero-shot button.cta:hover{
+  background-color: #d9400e
+}
+
+
+
+
+
 
 
